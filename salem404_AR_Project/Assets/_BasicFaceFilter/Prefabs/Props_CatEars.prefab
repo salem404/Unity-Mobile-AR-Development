@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8368219005012544131}
   - component: {fileID: 7576869473092944268}
   - component: {fileID: 7664242073144986764}
+  - component: {fileID: 4737618185619083266}
   m_Layer: 0
   m_Name: CatEarsRight
   m_TagString: Untagged
@@ -83,6 +84,26 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!95 &4737618185619083266
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757986307134677320}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 799d2dc51cb50ae419b043a45fe9d947, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4594435656060697897
 GameObject:
   m_ObjectHideFlags: 0
@@ -94,6 +115,7 @@ GameObject:
   - component: {fileID: 629004696648624523}
   - component: {fileID: 4394167099970579247}
   - component: {fileID: 1615954169140430933}
+  - component: {fileID: 2103496362589264150}
   m_Layer: 0
   m_Name: CatEarsLeft
   m_TagString: Untagged
@@ -166,6 +188,26 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!95 &2103496362589264150
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4594435656060697897}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 799d2dc51cb50ae419b043a45fe9d947, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4672036070492158906
 GameObject:
   m_ObjectHideFlags: 0
@@ -210,7 +252,7 @@ Animator:
   m_GameObject: {fileID: 4672036070492158906}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 799d2dc51cb50ae419b043a45fe9d947, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
