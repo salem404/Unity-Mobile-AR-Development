@@ -17,13 +17,18 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/InteractiveFilter.unity
     guid: 26e8e925fde8c43b8b395f73a6df960a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ARMarker.unity
     guid: 1e8711b7d4faaea49a939da41a414c84
+  - enabled: 1
+    path: Assets/_ARPortal/Scenes/AR_Portal.unity
+    guid: 2bb9c907d8df5444f9d0173ab326b30b
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6ee72d15cf39dd748a13eac57397b9af,
       type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 0465d33c6aee55f44b0237db8b0e0259,
+      type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: b69935bc91181d64fadcdb3b763f6b0e,
       type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 972061fc85d436643afd181e93b85a92,
       type: 2}
