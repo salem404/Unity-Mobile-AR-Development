@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: TouchVisualizer
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"TouchVisualizer","summary":"Shows
+      where the touch is","pan":{"x":267.5774,"y":-99.6424},"zoom":0.8,"elements":[{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"circle","$type":"System.String"},"object":null},"position":{"x":-35.0,"y":-149.0},"guid":"8cc060a1-f896-4404-b8a6-23ba75754111","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"9"},{"chainable":false,"member":{"name":"position","parameterTypes":null,"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"input":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"}},"position":{"x":384.0,"y":-267.0},"guid":"29fe3d22-9be3-44e6-a3ff-9e849ee06c83","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"11"},{"FloatValue":null,"Vector2Value":{"unit":{"$ref":"14"}},"InputActionChangeType":"OnPressed","coroutine":false,"defaultValues":{"Target":null,"InputAction":{"id":"de84ab43-7c08-49d1-9f1b-d0cc9a5912b1","name":"Touch","expectedControlType":"Vector2","type":"Value","$type":"UnityEngine.InputSystem.InputAction"}},"position":{"x":-128.0,"y":-303.0},"guid":"394b6e7e-e628-4017-83e9-aa1f27062c43","$version":"A","$type":"Unity.VisualScripting.InputSystem.OnInputSystemEventVector2","$id":"14"},{"chainable":false,"parameterNames":["value"],"member":{"name":"SetActive","parameterTypes":["System.Boolean"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"target":null,"%value":{"$content":true,"$type":"System.Boolean"}},"position":{"x":260.0,"y":-54.0},"guid":"260e278c-b61d-4ed1-9512-6bc309847314","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"18"},{"sourceUnit":{"$ref":"18"},"sourceKey":"exit","destinationUnit":{"$ref":"11"},"destinationKey":"assign","guid":"eb9e4018-4499-4123-a3ca-799907b4652c","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"assign","guid":"6fd8b599-3421-43f9-ab0d-2e55253dc6b3","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"value","destinationUnit":{"$ref":"18"},"destinationKey":"target","guid":"ef2470e1-7101-4011-a1f1-470a756801be","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"Vector2Value","destinationUnit":{"$ref":"11"},"destinationKey":"input","guid":"19d434d3-0368-4329-ac13-1b4f99e65b58","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"value","destinationUnit":{"$ref":"11"},"destinationKey":"target","guid":"6c111ac6-0262-431e-ba48-ce121d87a040","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
