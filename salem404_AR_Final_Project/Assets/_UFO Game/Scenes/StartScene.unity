@@ -2309,14 +2309,14 @@ MonoBehaviour:
 
 
     To move
-    the ship: W, A, S, D
+    the ship: Touch the arrow buttons
 
-    To use the tractor beam: Hold space
+    To use the tractor beam: Hold the beam
+    button
 
 
-    The ship
-    cannot stay cloaked while using the tractor beam. If you think someone will be
-    able to see you, stop using the tractor beam!'
+    The ship cannot stay cloaked while using the tractor beam. If you
+    think someone will be able to see you, stop using the tractor beam!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 96a52c37462b89d43a504656f32ce903, type: 2}
   m_sharedMaterial: {fileID: 6087974816275033710, guid: 96a52c37462b89d43a504656f32ce903, type: 2}
