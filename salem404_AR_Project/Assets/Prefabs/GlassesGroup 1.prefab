@@ -169,7 +169,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 94bc970bc540594418da619b8dae2df3, type: 2}
+  - {fileID: 2100000, guid: 2cb9aa6959120b64a9dea64541c65bba, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -284,7 +284,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3137684465953761884}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -508,7 +508,7 @@ GameObject:
   - component: {fileID: 7457678387878283886}
   - component: {fileID: 6270378923862683289}
   m_Layer: 0
-  m_Name: GlassesGroup
+  m_Name: GlassesGroup 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
